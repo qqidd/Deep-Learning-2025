@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['phone', 'sleep', 'study']
+
+roboflow:
+  workspace: rifky-rrm2w
+  project: student-classroom-activity-v-2-acvpf-ykit5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rifky-rrm2w/student-classroom-activity-v-2-acvpf-ykit5/dataset/1
